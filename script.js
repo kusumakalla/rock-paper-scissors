@@ -68,8 +68,8 @@ function playRound(humanChoice, computerChoice) {
     }
 
     if (humanScore >= 5 || computerScore >= 5) {
-        humanScore > computerScore ? result.textContent = `Yayy!! you won. Your final score after 5 rounds : ${humanScore} ` :
-            result.textContent = `Oh!ohh!! computer won. Your final score after 5 rounds : ${humanScore} `;
+        humanScore > computerScore ? result.textContent = `Yayy!! you won.` :
+            result.textContent = `Oh!ohh!! computer won.`;
     }
 
 }
